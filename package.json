@@ -1,0 +1,33 @@
+{
+	"name": "bear.app",
+	"version": "1.0.0",
+	"description": "interface for bear.app",
+	"main": "index.js",
+	"module": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "chee <chee@snoot.club>",
+	"license": "MIT",
+	"dependencies": {
+		"esm": "^3.1.4",
+		"just-kebab-case": "^1.1.0",
+		"openurl": "^1.1.1"
+	},
+	"devDependencies": {
+		"eslint": "^5.12.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chee/bear.app.js.git"
+	},
+	"keywords": [
+		"bear",
+		"app",
+		"notes"
+	],
+	"bugs": {
+		"url": "https://github.com/chee/bear.app.js/issues"
+	},
+	"homepage": "https://github.com/chee/bear.app.js#readme"
+}
