@@ -1,5 +1,6 @@
-bear.app <command>
+# bear.app
 
+```
 Commands:
   bear.app open-note     Open a note identified by its title or id and return
                          its content.
@@ -26,7 +27,4 @@ Commands:
   bear.app change-theme  Change the selected Bear theme. Some themes may require
                          a Bear Pro subscription.
   bear.app change-font   Change the selected Bear Font.
-
-Options:
-  --version  Show version number                                       [boolean]
-  --help     Show help                                                 [boolean]
+```
