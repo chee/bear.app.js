@@ -1,4 +1,3 @@
-import {resolve} from "url"
 import {encode} from "querystring"
 
 /**
@@ -8,8 +7,5 @@ import {encode} from "querystring"
  * @param {Object.<string, string>} options 
  * @returns {string} url
  */
-export default function (app, action, options) {
-	let root = resolve(`${app}://`, action)
-	let query = encode(options)
-	return `${root}?${query}`
-}
+export default (app, action, options) =>
+	`${app}://x-callback-url/${action}?${encode(options)}`
