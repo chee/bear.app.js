@@ -31,5 +31,8 @@
 	"bugs": {
 		"url": "https://github.com/chee/bear.app.js/issues"
 	},
-	"homepage": "https://github.com/chee/bear.app.js#readme"
+	"homepage": "https://github.com/chee/bear.app.js#readme",
+	"directories": {
+		"bin": "./bin"
+	}
 }
