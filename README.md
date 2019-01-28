@@ -1,5 +1,10 @@
 # bear.app
 
+The documentation for the `x-callback-url` is available at: 
+https://bear.app/faq/X-callback-url%20Scheme%20documentation/
+
+`--file` arguments get read and turned into base64 strings
+
 ```
 Commands:
   bear.app open-note     Open a note identified by its title or id and return
